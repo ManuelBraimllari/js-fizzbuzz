@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(9, 6, 113);
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 1rem;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+.quadrati {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.sq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: rgb(0, 89, 255);
+}
+
+.fizz {
+	background-color: rgb(0, 255, 94);
+}
+
+.buzz {
+	background-color: rgb(240, 192, 0);
+}
+
+.fizzbuzz {
+	background-color: rgb(255, 47, 123);
+}
